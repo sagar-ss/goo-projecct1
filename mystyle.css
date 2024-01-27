@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.service-card{
+    width: 90%;
+    margin:auto;
+}
+.service-card-items{
+    display: flex;
+    overflow: auto;
+
+}
+.service-card-item{
+    margin:0 0 1rem 1rem;
+    transition: .3s ease;
+    
+}
+.service-card-item:hover{
+    transform: translateY(20px);
+    transform: scale(1.1);
+    /* background-color: white; */
+}
+
+.service-img{
+    width: 260px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid lightgray;
+}
+.img-1{
+    background-image: url('https://media.istockphoto.com/id/894954832/photo/digital-security-concept.webp?b=1&s=170667a&w=0&k=20&c=frcxUFtEtu8iQDcKTeusx8pHY1I1uPo1owWRgg9Fx_E=');
+
+}
+.img-2{
+    background-image: url("https://images.unsplash.com/photo-1573867639040-6dd25fa5f597?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdlYnNpdGV8ZW58MHx8MHx8fDA%3D");
+}
+.img-3{
+    background-image: url("https://media.istockphoto.com/id/1398462038/photo/online-exam-or-test.webp?b=1&s=170667a&w=0&k=20&c=rPmfkbaVJ5zY_WcFe5TV9LfLGaamTIW6F-YGrC1jzmc=");
+}
+.img-4{
+    background-image: url("https://media.istockphoto.com/id/1334591614/photo/man-using-digital-tablet-online-connect-to-internet-banking-currency-exchange-online-shopping.webp?b=1&s=170667a&w=0&k=20&c=uVgjqk6ZUldPjFOUX35vNMUzJZ6tz_IDV7apr1AWhII=");
+}
+.img-5{
+    background-image: url("https://media.istockphoto.com/id/1276936276/photo/creative-background-online-casino-in-a-mans-hand-a-smartphone-with-playing-cards-roulette-and.webp?b=1&s=170667a&w=0&k=20&c=QgY-kqlfTUi_dAAvr5Mr8rRaq_X7Kw_xCTKaWja4rZc=");
+}
+.img-6{
+    background-image: url("https://media.istockphoto.com/id/1463013729/photo/online-registration-form-for-modish-form-filling.webp?b=1&s=170667a&w=0&k=20&c=iUOC7YLenExVDT9pfUtJyyIS-dlJvOPyJq1USG4lv5I=");
+}
+.img-7{
+    background-image: url("https://media.istockphoto.com/id/1213223956/photo/north-and-south-america-red-connection-lines-copy-space-global-business-pandemic-computer.webp?b=1&s=170667a&w=0&k=20&c=d5rPBwD5ml4OcgPpLNASsxz2c-8OvktAijVLeAkTi0c=");
+}
+.img-8{
+    background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D");
+}
+.service-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    font-weight: 600;
+    font-size:1.1rem;
+    margin-top: .2rem;
+    line-height: 1.4;
+}
+
+.service-heading>p{
+    color:#2d316e;
+
+}
+
+.price-discount{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    color:green;
+    gap: 1rem;
+
+}
+.discount{
+    font-weight: 100;
+    font-size: x-large;
+    color: red;
+    text-decoration: line-through;
+}
+
+.btn{
+    border: none;
+    font-weight: 700;
+    font-size:15px;
+    background-color:#9a1ccb;
+    color:white;
+    height: auto;
+    margin: .2rem 0;
+    cursor: pointer;
+    padding: .3rem;
+    transition: .3s ease;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
